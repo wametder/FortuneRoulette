@@ -1,6 +1,6 @@
 // 1. API LADEN
 async function loadTimetable() {
-    const url = 'https://api.adviceslip.com/advice/search/try';
+    const url = 'https://api.adviceslip.com/advice';
     try {
         const response = await fetch(url);
         return await response.json();
