@@ -1,5 +1,5 @@
-// 1. API LADEN
-async function loadTimetable() {
+// 1. ADVICE API LADEN
+async function loadAdvice() {
     const url = 'https://api.adviceslip.com/advice';
     try {
         const response = await fetch(url);
@@ -9,22 +9,36 @@ async function loadTimetable() {
         return false;
     }
 }
-const timetable = await loadTimetable();
+const timetable = await loadAdvice();
 console.log(timetable); // gibt die Daten der API oder false in der Konsole aus
 
 // 2. DOM ELEMENTE LADEN
-const adviceText = document.querySelector('#randomAdvice');
+const adviceText = document.querySelector('.randomAdvice');
 
-const Text 
+const text = `<div class="randomAdvice">
+            <h2 class="advice">${timetable.slip.advice}</h2>
+        </div>`;
+adviceText.innerHTML += text;
 
 
-const cards_container = document.querySelector('#cards');
-all_pokemon_with_details.forEach(pokemon => {
-    const card = `<div class="card">
-                <h2 class="pokemon_name">${pokemon.name}</h2>
-                <img class="pokemon_image" src="${pokemon.image}" alt="">
-                <p class="pokemon_hp">Lebenskraft: <span class="value_hp">${pokemon.hp}</span></p>
-            </div>`
-    cards_container.innerHTML += card;
-})
+// 1. INSULT API LADEN
+async function loadInsult() {
+    const url = 'https://insult.mattbas.org/api/insult.json';
+    try {
+        const response = await fetch(url);
+        return await response.json();
+    } catch (error) {
+        console.error(error);
+        return false;
+    }
+}
+const timetable2 = await loadInsult();
+console.log(timetable2); // gibt die Daten der API oder false in der Konsole aus
 
+// 2. DOM ELEMENTE LADEN
+const insultText = document.querySelector('.randomInsult');
+
+const beleidigung = `<div class="randomInsult">
+            <h2 class="insult">${timetable2.insult}</h2>
+        </div>`;
+insultText.innerHTML += beleidigung;
