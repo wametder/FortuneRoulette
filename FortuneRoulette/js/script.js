@@ -11,3 +11,5 @@ async function loadTimetable() {
 }
 const timetable = await loadTimetable();
 console.log(timetable); // gibt die Daten der API oder false in der Konsole aus
+
+const advice = 
