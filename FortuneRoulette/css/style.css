@@ -10,7 +10,6 @@
   src: url('fonts/Poppins-Regular.ttf') format('truetype');
 }
 h1 {
-    font-family: 'Poppins', bold;
     font-size: 4rem;
     text-align: center;
     margin: 1rem 0;
@@ -60,7 +59,6 @@ body {
   
   .auswahl button {
     color: #000;
-    font-family: "Rubik One";
     font-size: 30px;
     font-style: normal;
     font-weight: 400;
