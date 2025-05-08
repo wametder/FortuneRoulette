@@ -51,7 +51,7 @@ insultText.innerHTML += beleidigung;
         const ergebnis = ergebnisse[zufall];
             
         // Seitenname z. B. schere_gewonnen.html
-        const zielseite = `${wahl}_${ergebnis}.html`;
+        const zielseite = `${wahl}/${wahl}_${ergebnis}.html`;
 
         window.location.href = zielseite;
      }
