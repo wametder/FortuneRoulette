@@ -60,3 +60,15 @@ body {
     padding: 1rem;
     font-family: sans-serif;
   }
+
+  .play-again{
+    color: #000;
+    font-family: "Rubik One";
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-radius: 40px;
+    border: 6px solid #FF0004;
+    background: #FFF;
+  }
