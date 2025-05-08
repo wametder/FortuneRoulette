@@ -55,3 +55,6 @@ insultText.innerHTML += beleidigung;
 
         window.location.href = zielseite;
      }
+
+
+     window.spiele = spiele;
