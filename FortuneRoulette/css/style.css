@@ -22,7 +22,16 @@ body {
     padding: 1rem;
     font-family: sans-serif;
   }
-  
+  .shaker {
+    width: 100%;
+    max-width: 800px;
+    border-
+    margin: 40px auto;
+    display: block;
+    -webkit-mask-image: radial-gradient(ellipse closest-side, black 40%, transparent 100%);
+  mask-image: radial-gradient(ellipse closest-side, black 40%, transparent 100%);
+  }
+
   .randomAdvice,
   .randomInsult {
     margin: 0.5rem 0;
