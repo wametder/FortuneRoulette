@@ -10,7 +10,6 @@
   src: url('fonts/Poppins-Regular.ttf') format('truetype');
 }
 h1 {
-    font-family: 'Poppins', bold;
     font-size: 4rem;
     text-align: center;
     margin: 1rem 0;
@@ -36,7 +35,6 @@ body {
   .shaker {
     width: 100%;
     max-width: 800px;
-    border-
     margin: 40px auto;
     display: block;
     -webkit-mask-image: radial-gradient(ellipse closest-side, black 40%, transparent 100%);
@@ -60,7 +58,6 @@ body {
   
   .auswahl button {
     color: #000;
-    font-family: "Rubik One";
     font-size: 30px;
     font-style: normal;
     font-weight: 400;
@@ -119,7 +116,7 @@ body {
     width: 120px;
     line-height: normal;
     padding: 6px 12px;
-    margin: 15px;
+    margin-bottom: 40px;
     border-radius: 40px;
     border: 6px solid #FF0004;
     background: #FFF;
