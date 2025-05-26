@@ -19,7 +19,7 @@ body {
 }
 
 #bild {
-  width: 200px;
+  width: 300px;
   height: auto;
   margin: 1rem 0;
 }
@@ -73,27 +73,97 @@ body {
     background-color: #d0d0d0;
   }
   
-  #gewonnen {
+#gewonnen {
     text-align: center;
-    max-width: 600px;
+    max-width: 800px;
     margin: 0 auto;
     padding: 1rem;
     font-family: sans-serif;
-  }
-  #verloren {
-    text-align: center;
-    max-width: 600px;
-    margin: 0 auto;
-    padding: 1rem;
-    font-family: sans-serif;
-  }
-  #unentschieden {
-    text-align: center;
-    max-width: 600px;
-    margin: 0 auto;
-    padding: 1rem;
-    font-family: sans-serif;
-  }
+}
+#verloren {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1rem;
+  font-family: sans-serif;
+}
+#unentschieden {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1rem;
+  font-family: sans-serif;
+}
+
+.contentWrapper {
+  display: flex;
+  justify-content: center; 
+  align-items: flex-start;
+  gap: 2rem;
+  margin-top: 1rem;
+}
+/* Video anpassen, damit es neben die Sprechblase passt */
+video.break {
+  max-width: 70%;
+  height: auto;
+}
+
+/* Sprechblase */
+.speechBubble {
+  position: relative;
+  background: white;
+  border-radius: 1em;
+  padding: 1em;
+  max-width: 60%;
+  text-align: left;
+  font-size: 1rem;
+  line-height: 1.4;
+  border: 2px solid black;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+}
+
+/* Pfeil der Sprechblase */
+.speechBubble::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: -30px; /* Abstand von der Sprechblase */
+  transform: translateY(-50%);
+  width: 0;
+  height: 0;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+  border-left: 30px solid white;
+
+}
+
+.speechBubble::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: -33px;
+  transform: translateY(-50%);
+  width: 0;
+  height: 0;
+  border-top: 22px solid transparent;
+  border-bottom: 22px solid transparent;
+  border-left: 32px solid black;
+  z-index: 0;
+}
+
+.papierButton {
+  margin-top: 1.5rem;
+}
+
+.play-again {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.5em 1em;
+  background-color: #007BFF;
+  color: white;
+  text-decoration: none;
+  border-radius: 0.5em;
+}
 
   a {
     text-decoration: none;
@@ -120,11 +190,4 @@ body {
     border-radius: 40px;
     border: 6px solid #FF0004;
     background: #FFF;
-  }
-
-  .break {
-    width: 100%;
-    max-width: 800px;
-    margin: 40px auto;
-    display: block;
   }

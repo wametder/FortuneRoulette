@@ -9,15 +9,16 @@
 <body>
     <section id="gewonnen">
         <h1>DU HAST GEWONNEN!</h1>
-        <div class="randomAdvice"> </div>
-        <video autoplay muted playsinline class="break">
+        <div class="contentWrapper"> 
+            <div class="randomAdvice speechBubble"> </div>
+            <video autoplay muted playsinline class="break">
             <source src="../bild/break.webm" type="video/webm">
             Dein Browser unterstützt dieses Videoformat nicht.
           </video>
-        <br>
+        </div>
         <div class="papierButton">
             <img src="../bild/IconPapier.png" alt="PapierButton" id="handButton"/>
-            </div>
+        </div>
         <a href="../index.html" class="play-again">Nochmals spielen</a>
 
         <script type="module" src="../js/scriptAdvice.js"></script>
