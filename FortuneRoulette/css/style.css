@@ -254,6 +254,17 @@ video.break {
     padding: 8px 36px;
   }
 
+#doch{
+  width: 70%;
+  height: auto;
+  margin-left: 15%;
+  margin-top: -100px;
+}
+
+.dochText {
+  font-size: 120px;
+}
+
   @media (max-width: 768px) {
     h1 {
       font-size: 2rem;
