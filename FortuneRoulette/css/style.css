@@ -195,10 +195,61 @@ video.break {
   }
 
 
-  #figurfrontpage {
-    width: 2104px;
-height: 2104px;
-flex-shrink: 0;
-aspect-ratio: 1/1;
+  body#startpage {
+    background-color: red;
+    position: relative;
+      overflow: hidden;
+      height: 100vh;
     
+    }
+
+  
+  .figurfrontpage {
+    position: absolute;
+    left: 50%;
+    margin-top: -200px;
+    transform: translateX(-50%);
+    width: 1600px;
+    height: auto;
+    z-index: -1;
+  }
+  .frontpagefrage {
+  color: black;
+  font-weight: 900;
+  text-align: left;
+  padding-left: 80px;
+  font-size: 60px;
+  margin-top: 30px;
+  width: 100%;
+  }
+
+  .auswahlStart {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    z-index: 10;
+    
+  }
+
+  .startButton {
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: 6px solid #FF0004;
+    background: #FFF;
+    transition: background-color 0.3s ease;
+  }
+
+  #jaButton{
+
+    font-size: 400%;
+    padding: 8px 36px;
   }

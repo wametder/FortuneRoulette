@@ -7,18 +7,19 @@
     <title>FortuneRoulette
     </title>
 </head>
-<body>
-    <section id="startpage">
-        <h1>Willst du mit mir spielen?</h1>
+<body id="startpage">
+    <section>
+        <h1 class="frontpagefrage">Willst du mit  <br> mir spielen?</h1>
 
-        <img src="bild/LogoFortuneRoulette.png" alt="LogoFortuneRoulette">
+        <img src="bild/LogoFortuneRoulette.png" alt="Logo" id="Logo"/>
         <img src="bild/frontpage.png" alt="Figur" class="figurfrontpage">
         
-        <div class="auswahl">
-            <button onclick="spiele('schere')">NEIN</button>
-            <button onclick="spiele('schere')">JA</button>
+        <div class="auswahlStart">
+            <button class="startButton" id="jaButton">JA</button>
+            <button class="startButton" id="neinButton">NEIN</button>
+
         </div>
     </section>
     <script type="module" src="js/scriptIndex.js"></script>
 </body>
-</html>
+</html> 
