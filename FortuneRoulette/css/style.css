@@ -120,6 +120,7 @@ video.break {
   line-height: 1.4;
   border: 2px solid black;
   box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+  margin-top: 50px;
 }
 
 /* Pfeil der Sprechblase */
@@ -155,16 +156,6 @@ video.break {
   margin-top: 1.5rem;
 }
 
-.play-again {
-  display: inline-block;
-  margin-top: 1rem;
-  padding: 0.5em 1em;
-  background-color: #007BFF;
-  color: white;
-  text-decoration: none;
-  border-radius: 0.5em;
-}
-
   a {
     text-decoration: none;
   }
@@ -180,6 +171,7 @@ video.break {
     border-radius: 40px;
     border: 6px solid #FF0004;
     background: #FFF;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
   }
 
 #handButton{
@@ -190,4 +182,14 @@ video.break {
     border-radius: 40px;
     border: 6px solid #FF0004;
     background: #FFF;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+  }
+
+  #Logo {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 250px;
+    height: auto;
+    z-index: 10;
   }
