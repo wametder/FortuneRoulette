@@ -195,7 +195,7 @@ video.break {
   }
 
 
-  body#startpage {
+  body #startpage {
     background-color: red;
     position: relative;
       overflow: hidden;
@@ -252,4 +252,99 @@ video.break {
 
     font-size: 400%;
     padding: 8px 36px;
+  }
+
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 2rem;
+      margin: 1rem 0;
+    }
+  
+    .shaker {
+      max-width: 100%;
+      margin: 20px auto;
+    }
+  
+    .auswahl {
+      grid-template-columns: 1fr;
+      gap: 15px;
+    }
+  
+    .auswahl button {
+      font-size: 1.5rem;
+      padding: 12px;
+    }
+  
+    .speechBubble {
+      max-width: 90%;
+      font-size: 0.95rem;
+    }
+  
+    .speechBubble::after,
+    .speechBubble::before {
+      display: none; /* Pfeil entfernen auf kleinen Geräten */
+    }
+  
+    #Logo {
+      width: 100px;
+      top: 10px;
+      right: 10px;
+    }
+  
+    .figurfrontpage {
+      width: 100%;
+      margin-top: 0;
+    }
+  
+    .frontpagefrage {
+      font-size: 1.8rem;
+      padding-left: 20px;
+      margin-top: 10px;
+      text-align: center;
+    }
+  
+    .auswahlStart {
+      top: 55%;
+      transform: translate(-50%, -50%);
+      gap: 15px;
+    }
+  
+    .startButton,
+    .play-again,
+    #handButton {
+      font-size: 1.2rem;
+      padding: 10px 15px;
+      border-width: 4px;
+    }
+  
+    #jaButton {
+      font-size: 2rem;
+      padding: 8px 20px;
+    }
+  
+    .contentWrapper {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    video.break {
+      max-width: 90%;
+    }
+
+    #gewonnen h1 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+  
+    #handButton {
+      width: 80px;
+      margin-bottom: 20px;
+      border-width: 4px;
+    }
+  
+    .play-again {
+      font-size: 1.2rem;
+      padding: 10px 15px;
+      border-width: 4px;
+    }
   }
