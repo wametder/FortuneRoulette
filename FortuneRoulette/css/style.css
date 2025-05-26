@@ -10,7 +10,7 @@
   src: url('fonts/Poppins-Regular.ttf') format('truetype');
 }
 h1 {
-    font-size: 4rem;
+    font-size: 300%;
     text-align: center;
     margin: 1rem 0;
 }
@@ -189,13 +189,13 @@ video.break {
     position: absolute;
     top: 20px;
     right: 20px;
-    width: 250px;
+    width: 15%;
     height: auto;
     z-index: 10;
   }
 
 
-  body #startpage {
+  body#startpage {
     background-color: red;
     position: relative;
       overflow: hidden;
@@ -276,9 +276,14 @@ video.break {
     }
   
     .speechBubble {
-      max-width: 90%;
-      font-size: 0.95rem;
+      max-width: 80%;
+      font-size: 0.85rem;
     }
+    
+    .randomAdvice,
+    .randomInsult {
+     font-size: 0.7rem;
+    } 
   
     .speechBubble::after,
     .speechBubble::before {
@@ -286,7 +291,7 @@ video.break {
     }
   
     #Logo {
-      width: 100px;
+      width: 90px;
       top: 10px;
       right: 10px;
     }
@@ -311,10 +316,11 @@ video.break {
   
     .startButton,
     .play-again,
-    #handButton {
+    #handButton, .papierButton {
       font-size: 1.2rem;
       padding: 10px 15px;
       border-width: 4px;
+      border-radius: 20px;
     }
   
     #jaButton {

@@ -10,3 +10,14 @@ function spiele(wahl) {
     window.location.href = zielseite;
 }
      window.spiele = spiele;
+
+
+     // Wenn "JA" geklickt wird direkt zum Spiel
+document.getElementById("jaButton").addEventListener("click", () => {
+    window.location.href = "index.html";
+  });
+  
+  // Wenn "NEIN" geklickt wird auf die DOCH-Seite
+  document.getElementById("neinButton").addEventListener("click", () => {
+    window.location.href = "doch.html";
+  });
