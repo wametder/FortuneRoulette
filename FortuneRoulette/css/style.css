@@ -191,3 +191,12 @@ video.break {
     border: 6px solid #FF0004;
     background: #FFF;
   }
+
+
+  #figurfrontpage {
+    width: 2104px;
+height: 2104px;
+flex-shrink: 0;
+aspect-ratio: 1/1;
+    
+  }
