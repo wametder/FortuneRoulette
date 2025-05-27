@@ -1,5 +1,7 @@
 # FortuneRoulette
 
-Transparenter Video-Hintergrund
-Wir wollten ein Video mit transparentem Hintergrund einbinden, um den Effekt des aufgebrochenen Cookies (Seite bei WIN) direkt über die Schrift legen zu können. Nach verschiedenen Tests haben wir uns für das WebM-Format mit Alphakanal entschieden, da es Transparenz unterstützt und in modernen Browsern wie Chrome, Edge und Firefox zuverlässig funktioniert.
-⚠️ Hinweis: Safari, insbesondere auf iOS-Geräten, unterstützt aktuell keine WebM-Videos mit transparentem Hintergrund. Dennoch haben wir uns bewusst für dieses Format entschieden, da es in den meisten modernen Browsern zuverlässig funktioniert und eine gute Balance zwischen Qualität, Dateigrösse und Transparenzeffekt bietet. Auf das .mov-Format haben wir verzichtet, da es zwar Transparenz unterstützt, aber ausschliesslich in Safari funktioniert und damit für den plattformübergreifenden Einsatz ungeeignet ist.
+Reflexion Nicolas:
+Das Projekt lief insgesamt sehr gut. Die API-Verlinkung funktionierte einwandfrei. Bei der Animationen (siehe Anhang) und der Responsiveness gab es kleinere Schwierigkeiten, doch ich habe viel gelernt und Sicherheit gewonnen.
+
+Bemerkung Animationen:
+Wir wollten ein Video mit transparentem Hintergrund über die Schrift legen und wählten dafür das WebM-Format mit Alphakanal. Es bietet gute Transparenz, ist effizient und läuft in den meisten modernen Browsern. Safari unterstützt es zwar nicht, dennoch entschieden wir uns bewusst dagegen, das .mov-Format zu verwenden, da es nur in Safari läuft und plattformübergreifend ungeeignet ist.
