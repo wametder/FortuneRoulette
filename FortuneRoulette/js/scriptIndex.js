@@ -12,12 +12,14 @@ function spiele(wahl) {
      window.spiele = spiele;
 
 
-     // Wenn "JA" geklickt wird direkt zum Spiel
-document.getElementById("jaButton").addEventListener("click", () => {
+//  STARTSEITE:
+// Wenn "JA" geklickt wird direkt zum Spiel
+    document.getElementById("jaButton").addEventListener("click", () => {
     window.location.href = "index.html";
   });
   
-  // Wenn "NEIN" geklickt wird auf die DOCH-Seite
-  document.getElementById("neinButton").addEventListener("click", () => {
+// Wenn "NEIN" geklickt wird auf die DOCH-Seite
+    document.getElementById("neinButton").addEventListener("click", () => {
     window.location.href = "doch.html";
   });
+
