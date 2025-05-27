@@ -390,4 +390,27 @@ video.break {
       text-align: center;
       margin-top: 2px;
     }
+
+  
+    .figurfrontpage {
+      width: 200%;
+      height: auto;
+      max-width: none;
+      margin-top:-100px;
+    }
+
+    .auswahlStart {
+      margin-top: -150px;
+    }
+
+    .frontpagefrage {
+      font-size: 40px;
+      padding-left: 10px;
+      margin-top: 20px;
+      text-align: center;
+    }
+
   }
+
+    
+  
