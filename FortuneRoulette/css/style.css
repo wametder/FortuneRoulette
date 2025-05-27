@@ -66,6 +66,7 @@ body {
     border-radius: 20px;
     border: 6px solid #FF0004;
     background: #FFF;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
     transition: background-color 0.3s ease;
   }
   
@@ -232,8 +233,7 @@ video.break {
     flex-direction: column;
     gap: 20px;
     align-items: center;
-    z-index: 10;
-    
+    z-index: 10;  
   }
 
   .startButton {
@@ -245,8 +245,14 @@ video.break {
     border-radius: 20px;
     border: 6px solid #FF0004;
     background: #FFF;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.2);  
     transition: background-color 0.3s ease;
   }
+
+  .startButton:hover {
+    background-color: #d0d0d0;
+  }
+    
 
   #jaButton{
 
