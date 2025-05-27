@@ -7,19 +7,20 @@
     <title>FortuneRoulette
     </title>
 </head>
-<body id="startpage">
-    <section>
-        <h1 class="frontpagefrage">Willst du mit  <br> mir spielen?</h1>
-
-        <img src="bild/LogoFortuneRoulette.png" alt="Logo" id="Logo"/>
-        <img src="bild/frontpage.png" alt="Figur" class="figurfrontpage">
-        
-        <div class="auswahlStart">
-            <button class="startButton" id="jaButton">JA</button>
-            <button class="startButton" id="neinButton">NEIN</button>
-
+<body>
+    <section id="shakeArm">
+        <h1>SPIEL MIT MIR!</h1>
+        <a href="wannaplay.html"><img src="bild/LogoFortuneRoulette.png" alt="Logo" id="Logo"/></a>
+        <video class="shaker" autoplay loop muted>
+            <source src="bild/FaustShake.mp4" type="video/mp4">
+            Dein Browser unterstützt das Videoformat nicht.
+        </video>
+        <div class="auswahl">
+            <button onclick="spiele('schere')">Schere</button>
+            <button onclick="spiele('stein')">Stein</button>
+            <button onclick="spiele('papier')">Papier</button>
         </div>
     </section>
     <script type="module" src="js/scriptIndex.js"></script>
 </body>
-</html> 
+</html>

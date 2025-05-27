@@ -382,8 +382,9 @@ video.break {
     }
 
     #doch {
-      width: 130%;
-      margin-left: -75px;
+      display: flex;
+      width: 190%;
+      margin-left: -200px;
     }
     
     .dochText {

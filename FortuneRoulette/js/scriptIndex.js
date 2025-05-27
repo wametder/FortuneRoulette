@@ -15,7 +15,7 @@ function spiele(wahl) {
 //  STARTSEITE:
 // Wenn "JA" geklickt wird direkt zum Spiel
     document.getElementById("jaButton").addEventListener("click", () => {
-    window.location.href = "index.html";
+    window.location.href = "wannaplay.html";
   });
   
 // Wenn "NEIN" geklickt wird auf die DOCH-Seite
